@@ -1,5 +1,5 @@
 class Api::ServiceController < ApplicationController
-  before_action :set_service, only: [:edit, :update, :destroy]
+  before_action :set_service, only:  [:update, :destroy]
 
   def index
     render json: Service.all
@@ -12,9 +12,6 @@ class Api::ServiceController < ApplicationController
       else
         render json: {errors: service.errors.full_messages.join(',')}, status: 422
       end
-  end
-
-  def edit
   end
 
   def update
