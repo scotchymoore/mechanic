@@ -8,6 +8,8 @@ import Home from './Home';
 import ProtectedRoute from './ProtectedRoute';
 import { Switch, Route } from 'react-router-dom';
 import FetchUser from './FetchUser';
+import Services from './Services';
+
 
 class App extends Component {
   render() {
@@ -20,6 +22,7 @@ class App extends Component {
             <Route exact path='/' component={Home} />
             <Route exact path='/login' component={Login} />
             <Route exact path='/register' component={Register} />
+            <Route exact path='/services' component={Services} />
             <Route component={NoMatch} />
           </Switch>
         </FetchUser>

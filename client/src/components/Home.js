@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import mechanic from '../assets/mechanic.jpg'
+import mechanic from '../assets/mechanic.jpg';
+
 
 const styles = {
   pageBackground: {
@@ -45,7 +46,7 @@ class Home extends Component {
       <div style={styles.pageBackground}>
         <h1 style={styles.h1}>React Coder Auto Repair</h1>
         <h3 style={styles.h3}>Easy to work with. Easy on the wallet.</h3>
-        <p style={styles.p}> At React Coders, we strive to make your car repairs a stress-free experience. 
+        <p style={styles.p}> At React Coders, we strive to make your car repairs a stress-free experience.
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum facilisis enim ac
           pharetra ullamcorper. Class aptent taciti sociosqu ad litora torquent per conubia nostra,
           per inceptos himenaeos. Duis quis erat ut odio vehicula mattis. Nam orci leo, pulvinar
